@@ -1,0 +1,231 @@
+@media (max-width: 1326px){
+    .contentStyle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .aside-topic{
+        margin-left: 10%;
+        height: 720px;
+    }
+}
+@media (max-width: 1200px){
+    .marketing{
+        display: none;
+    }
+
+    .title-container{
+        width: 61%;
+    }
+    .organisation-footer{
+        width: 74%;
+    }
+}
+
+@media (max-width: 992px){
+    .title-container{
+        text-align: left;
+    }
+    .redBlock{
+        margin-left: 0;
+    }
+    .first-bar{
+        display: none;
+    }
+    .second-bar{
+        padding-top: 24px;
+    }
+    .bar-icons-fixed{
+        left: 20px;
+    }
+    .twoOptions{
+        right: 22px;
+    }
+}
+@media (max-width: 768px){
+    .text{
+        font-size: 18px;
+    }
+    .read > h5 {
+        font-size: 36px;
+    }
+    .primary-panel-images > h3 {
+        font-size: 20px;
+    }
+    article > h2 {
+        font-size: 26px;
+    }
+    article > h3 {
+        font-size: 22px;
+    }
+    .action-button > span:nth-child(1) {
+        margin-right: 14px;
+        padding-right: 14px;
+    }
+    .action-button > span:nth-child(1) > img {
+        width: 19.11px;
+        height: 14.76px;
+    }
+    .action-button > span:nth-child(1) > p {
+        font-size: 12px;
+    }
+    .action-button{
+        width: 320px;
+    }
+    .action-title{
+        font-size: 14px;
+    }
+    .action-size{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    .service > h4 {
+        font-size: 36px;
+    }
+    .service > ul > li {
+        font-size: 16px;
+    }
+    .contentTags > h5, .title-cinema > h5, .newsletter > h4{
+        font-size: 36px;
+    }
+    .aside-topic > .explore > h4 {
+        font-size: 38px;
+        color: #1C1C1C;
+    }
+    .contentCinema > ul {
+        margin-top: 20px;
+    }
+    .bar-icons-fixed {
+        flex-direction: row;
+        bottom: 0;
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        border-radius: 0;
+        justify-content: center;
+    }
+    .twoOptions{
+        display: none;
+    }
+    .bar-icons-fixed > div > span {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .bar-icons-fixed > div > p {
+        display: flex;
+        color: #1C1C1C;
+        font-size: 12px;
+        font-family: font1;
+        letter-spacing: 0.17px;
+    }
+    .bar-icons-fixed > span:nth-child(1){
+        border-right: 1px solid #D1D1D1;
+        padding-right: 24px;
+        margin-right: 24px;
+    }
+    .line{
+        display: none;
+    }
+    .newsletter{
+        height: 220px;
+        width: 280px;
+    }
+    .newsletter > input {
+        width: 113px;
+        margin-top: 26px;
+    }
+    .newsletter > button {
+        width: 288px;
+    }
+    .aside-topic > .explore{
+        padding: 2px 10px 0px 10px;
+        border: 1px solid #E51D35;
+        width: 298px;
+    }
+    .aside-topic > .explore > ul > li {
+        padding: 6px 14px;
+    }
+    .none{
+        display: none;
+    }
+    .organisation-footer{
+        padding-bottom: 110px;
+    }
+    .logo-footer{
+        display: flex;
+        margin-bottom: 36px;
+    }
+    .panel-images > figcaption {
+        margin-top: 14px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .disappear{
+        display: none;
+    }
+    .appear{
+        display: flex;
+    }
+}
+@media (max-width: 576px){
+    .read > div{
+        flex-wrap: wrap;
+    }
+    .icons{
+        display: none;
+    }
+    .contentCinema > ul > li{
+        width: 100%;
+    }
+    .contentCinema > ul > li > .image-container >{
+        width: 100%;
+    }
+    .contentCinema > ul > li > .image-container > img {
+        width: 100%;
+        height: 226px;
+    }
+    .first-column {
+        width: 320px;
+    }
+    .aside-topic {
+        margin-left: 0;
+        margin: auto;
+    }
+    .title-container > h1 {
+        font-size: 30px;
+    }
+    .title-container > h2 {
+        font-size: 16px;
+    }
+    .search {
+        display: none;
+    }
+    .logo > img {
+        width: 208px;
+        height: 42px;
+    }
+    .menu {
+        display: flex;
+    }
+    header{
+        background-image: url(img/foto-fundo.webp);
+    }
+    .loupe {
+        display: flex;
+    }
+    .panel-images > img {
+        height: 300px;
+    }
+    .title-container {
+        width: 85%;
+    }
+    .author-name{
+        border: none;
+    }
+    .publish-date{
+        margin-left: 0;
+    }
+    .description {
+        display: none;
+    }
+}

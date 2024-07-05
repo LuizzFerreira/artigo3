@@ -1,0 +1,149 @@
+/*header*/
+header{
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -170px 220px rgba(28, 28, 28, 1);
+}
+.first-bar{
+    display: flex;
+    width: 82%;
+    margin: auto;
+    justify-content: space-between;
+    border-bottom: 1px solid #130A24;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.first-bar > ul {
+    display: flex;
+    list-style-type: none;
+    font-family: font2;
+    font-size: 14px;
+    padding: 0;
+}
+.first-bar > ul:nth-child(1){
+    gap: 50px;
+}
+.first-bar > ul:nth-child(2){
+    gap: 32px;
+}
+
+.first-bar > ul:nth-child(2) > li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.second-bar {
+     display: flex;
+     width: 82%;
+     margin: auto;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 126px;
+}
+
+.search > input{
+    font-size: 16px;
+    font-family: font1;
+    color: #FFFFFF;
+}
+
+.search > input::placeholder{
+    color: #FFFFFF;
+}
+
+.search > button, input {
+    background: none;
+    border: none;
+}
+.icons{
+    display: flex;
+    gap: 12px;
+}
+.title-container{
+    display: block;
+    width: 850px;
+    margin: auto;
+    margin-top: 356px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.title-container > h1 {
+    font-family: font1;
+    font-size: 48px;
+}
+.title-container > h2 {
+    font-family: font2;
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: 100;
+}
+
+.title-container > figure > figcaption{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.redBlock{
+    font-size: 12px;
+    font-family: font1;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    background-color: #E51D35;
+    width: 23px;
+    margin: auto;
+}
+
+.sub-topic{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    align-items: center;
+    margin-top: 22px;
+    font-size: 22px;
+    height: 28px;
+}
+.sub-topic p:nth-child(1){
+    font-family: font2;
+}
+.sub-topic p:nth-child(3){
+    font-family: font1;
+}
+.title-container > figure {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 28px;
+}
+.title-container > figure > img {
+    border-radius: 20px;
+}
+.author-name {
+    font-family: font1;
+    border-right: 1px solid #DDDDDD;
+    padding-right: 14px;
+}
+.publish-date {
+    font-family: font2;
+    margin-left: 14px;
+}
+.vertical-line {
+    width: 2px;
+    height: 100px;
+    background-color: black;
+}
+.menu {
+    display: none;
+}
+.loupe{
+    display: none;
+}
